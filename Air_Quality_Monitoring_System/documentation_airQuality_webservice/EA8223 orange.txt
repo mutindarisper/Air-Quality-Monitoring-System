@@ -1,0 +1,54 @@
+EA8223 orange
+23DEEA cyan
+F5E5A9 light brown shade
+
+
+  // var wmsLayer =   L.tileLayer.wms("http://localhost:8005/geoserver/air_quality_rasters/wms", {
+            //   pane: 'tiff',
+            //     layers: "air_quality_rasters:NO2-2019-NAI_test, air_quality_rasters:NO2-2019-MSA",
+            //     format: "image/png",
+            //     opacity: 1.0,
+            //     transparent: "true",
+            //     version: "1.1.0",
+                  
+            //   });
+            //   wmsLayer.addTo(this.map);
+
+            //   var boundary =   L.tileLayer.wms("http://localhost:8005/geoserver/airqualitytest/wms", {
+            //     pane: 'vector',
+            //     layers: "airqualitytest:Nairobi_boundary, airqualitytest:kisumu_boundary",
+            //     format: "image/png",
+            //     opacity: 1.0,
+            //     transparent: "true",
+            //     version: "1.1.0",
+                  
+            //   });
+            // boundary.addTo(this.map);
+
+
+            //  var tile_layers = {
+            //     'OSM': osmLayer,
+            //     'MapBox': mapboxLayer,
+                  
+            //   };
+
+
+            // var overlayMaps = {
+            //     'WMSLayer': wmsLayer,
+            //     'Boundary': boundary,
+            //   };
+
+              // L.control.layers(tile_layers, overlayMaps, {collapsed:false}).addTo(this.map);
+              // L.control.opacity(tile_layers, overlayMaps, {
+              //         position: 'bottomleft',
+                      
+              //         label: 'Layers Opacity',
+              //     }).addTo(this.map);
+
+
+
+
+              hide control layer
+              var layerControl = document.getElementsByClassName('leaflet-control-layers');
+            layerControl[0].style.visibility = 'hidden';
+            

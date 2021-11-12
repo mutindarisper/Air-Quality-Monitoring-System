@@ -1,0 +1,111 @@
+#app {
+    display: flex;
+   
+  } 
+
+  .map_controls{
+    margin: 10px;
+    z-index: 800;
+  }
+  
+  .right_map_controls{
+    position: absolute;
+  color: rgba(34, 158, 86, 0.726);
+    z-index: 800;
+    margin-top: 5%;
+    left: 0.5%;
+  }
+  .layers{
+    margin-top: 400px;
+    font: 20px sans-serif;
+    color: black;
+  }
+  .base_map_ctrl_selections {
+    position: absolute;
+    z-index: 401;
+    margin-top: 5%;
+    top:10%;
+    left: 3.3%;
+    background-color: #F5E5A9;
+    border-radius: 10px;
+    padding: 5px;
+  }
+  .base_map_name {
+    font-size: 15px;
+    cursor: pointer;
+    border-bottom: rgb(153, 90, 18) solid 3px;
+  }
+  .base_map_name:hover {
+    background-color: #F29914;
+  }
+  .right_map_container{
+    z-index: 800;
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    left: 1450px;
+
+    top: 250px;
+
+
+  }
+  .navbar{
+    position: absolute;
+     width: 100%;
+    height: 83px;
+    left: 0px;
+    top: 0px;
+    
+   
+    z-index: 1000;
+  }
+  .swap_tool{
+    z-index: 800;
+    position: absolute;
+    top: 25%;
+    cursor: pointer;
+
+
+  }
+  .analysis_tool{
+    z-index: 800;
+    position: absolute;
+    top: 30%;
+    border: none;
+    cursor: pointer;
+  }
+  .analysis_tool:hover{
+    border: none;
+    outline: none;
+  }
+  .zoomin_tool{
+    z-index: 800;
+    position: absolute;
+    top: 10%;
+    cursor: pointer;
+  }
+  .zoomout_tool{
+    z-index: 800;
+    position: absolute;
+    top: 15%;
+    cursor: pointer;
+  }
+  .basemaps{
+    z-index: 800;
+    position: absolute;
+    top: 20%;
+    cursor: pointer;
+  }
+  .legend_tool{
+    z-index: 800;
+    position: absolute;
+    top: 35%;
+    cursor: pointer;
+  }
+  .close_right_map_container{
+    z-index: 800;
+    position: absolute;
+    top: 30px;
+    left: 95%;
+    fill:rgb(253, 197, 132);
+  }

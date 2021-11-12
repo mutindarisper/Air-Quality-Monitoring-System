@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="69.159" height="69.159" viewBox="0 0 69.159 69.159">
+    <defs>
+        <filter id="htqtpkfyja" width="69.159" height="69.159" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g>
+        <g filter="url(#htqtpkfyja)" transform="translate(9 6) matrix(1, 0, 0, 1, -9, -6)">
+            <circle cx="25.579" cy="25.579" r="25.579" fill="#1f8641" transform="translate(9 6)"/>
+        </g>
+        <g>
+            <path fill="none" d="M0 0h29.19v29.19H0z" transform="translate(9 6) translate(11.443 12.228)"/>
+            <path fill="#fff" d="M16.452 10.322l1.119 1.119L6.551 22.46H5.432v-1.119l11.02-11.019M20.83 3a1.218 1.218 0 0 0-.851.353l-2.226 2.225 4.561 4.561 2.226-2.225a1.211 1.211 0 0 0 0-1.715l-2.846-2.846A1.194 1.194 0 0 0 20.83 3zm-4.378 3.88L3 20.331v4.561h4.561l13.452-13.451-4.561-4.561z" transform="translate(9 6) translate(11.443 12.228) translate(0.649 0.649)"/>
+        </g>
+    </g>
+</svg>

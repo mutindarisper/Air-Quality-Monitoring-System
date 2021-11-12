@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58.696" height="58.696" viewBox="0 0 58.696 58.696">
+    <defs>
+        <filter id="4613im7gpa" width="58.696" height="58.696" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g>
+        <g filter="url(#4613im7gpa)" transform="translate(-1630 -749) matrix(1, 0, 0, 1, 1630, 749)">
+            <circle cx="20.348" cy="20.348" r="20.348" fill="#fff" transform="translate(9 6)"/>
+        </g>
+        <path fill="#03a9f4" d="M20.411 49.963a8.724 8.724 0 0 1-2.411.661 4.161 4.161 0 0 0 1.841-2.313 8.362 8.362 0 0 1-2.653 1.013 4.184 4.184 0 0 0-7.238 2.861 4.309 4.309 0 0 0 .1.954 11.844 11.844 0 0 1-8.625-4.377 4.186 4.186 0 0 0 1.286 5.593 4.132 4.132 0 0 1-1.895-.515v.046A4.2 4.2 0 0 0 4.169 58a4.176 4.176 0 0 1-1.1.138 3.7 3.7 0 0 1-.792-.071 4.224 4.224 0 0 0 3.91 2.915A8.408 8.408 0 0 1 1 62.764a7.837 7.837 0 0 1-1-.057 11.78 11.78 0 0 0 6.419 1.878 11.828 11.828 0 0 0 11.91-11.907c0-.185-.006-.364-.015-.541a8.348 8.348 0 0 0 2.097-2.174z" transform="translate(-1630 -749) translate(1649 719)"/>
+    </g>
+</svg>
